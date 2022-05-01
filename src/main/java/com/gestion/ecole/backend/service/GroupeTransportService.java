@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface GroupeTransportService {
 
-    GroupeTransport save(GroupeTransport absenceEleve);
+    GroupeTransport save(GroupeTransport groupeTransport);
 
-    GroupeTransport update(GroupeTransport absenceEleve,int id) throws Exception;
+    GroupeTransport update(GroupeTransport groupeTransport,int id) throws Exception;
 
     List<GroupeTransport> findAll();
 
