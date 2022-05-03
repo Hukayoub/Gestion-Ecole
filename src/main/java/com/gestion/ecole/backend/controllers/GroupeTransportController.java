@@ -2,7 +2,7 @@ package com.gestion.ecole.backend.controllers;
 
 
 import com.gestion.ecole.backend.models.gestionEleve.GroupeTransport;
-import com.gestion.ecole.backend.service.GroupeTransportService;
+import com.gestion.ecole.backend.service.gestionEleve.GroupeTransportService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

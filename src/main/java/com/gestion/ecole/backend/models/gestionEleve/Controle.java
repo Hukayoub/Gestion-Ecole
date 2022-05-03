@@ -1,6 +1,7 @@
 package com.gestion.ecole.backend.models.gestionEleve;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -33,9 +34,11 @@ public class Controle {
     @JoinTable(name = "controles_eleves",
             joinColumns = {@JoinColumn(name = "controle_id")},
             inverseJoinColumns = {@JoinColumn(name = "eleve_id")})
+    @JsonIgnore
     private List<Eleve> elevesControles;
 
     @ManyToOne
-    @JoinColumn(name = "controle_id")
+    @JoinColumn(name = "discipline_id")
+    @JsonIgnore
     private Discipline discipline;
 }

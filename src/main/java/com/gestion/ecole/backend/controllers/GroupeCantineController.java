@@ -1,8 +1,7 @@
 package com.gestion.ecole.backend.controllers;
 
 import com.gestion.ecole.backend.models.gestionEleve.GroupeCantine;
-import com.gestion.ecole.backend.service.GroupeCantineService;
-import com.gestion.ecole.backend.service.GroupeTransportService;
+import com.gestion.ecole.backend.service.gestionEleve.GroupeCantineService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

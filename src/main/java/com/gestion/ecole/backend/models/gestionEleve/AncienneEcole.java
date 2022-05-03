@@ -1,5 +1,6 @@
 package com.gestion.ecole.backend.models.gestionEleve;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -25,6 +26,7 @@ public class AncienneEcole {
 
     @OneToOne
     @JoinColumn(name = "eleve_id")
+    @JsonIgnore
     private Eleve eleve;
 
 }

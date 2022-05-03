@@ -1,5 +1,6 @@
 package com.gestion.ecole.backend.models.gestionEleve;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -24,9 +25,11 @@ public class Discipline {
     @OneToMany(mappedBy = "discipline")
     private List<Controle> controles;
 
+    @JsonIgnore
     @ManyToMany(mappedBy = "disciplines")
     private List<Niveau> niveaus;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "matiere_id")
     private Matiere matiere;

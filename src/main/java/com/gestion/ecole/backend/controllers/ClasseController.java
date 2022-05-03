@@ -2,7 +2,7 @@ package com.gestion.ecole.backend.controllers;
 
 
 import com.gestion.ecole.backend.models.gestionEleve.Classe;
-import com.gestion.ecole.backend.service.ClasseService;
+import com.gestion.ecole.backend.service.gestionEleve.ClasseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -35,12 +35,12 @@ public class ClasseController {
     }
 
     @GetMapping("id/{id}")
-    public ResponseEntity<Classe> findById(@PathVariable int id) throws Exception {
+    public ResponseEntity<Classe> findById(@PathVariable("id") int id) throws Exception {
         return ResponseEntity.ok(classeService.findById(id));
     }
 
     @GetMapping("surnom/{surnom}")
-    public ResponseEntity<Classe> findBySurnom(String surnom){
+    public ResponseEntity<Classe> findBySurnom(@PathVariable("surnom") String surnom){
         return ResponseEntity.ok(classeService.findBySurnom(surnom));
     }
 }

@@ -1,7 +1,7 @@
 package com.gestion.ecole.backend.controllers;
 
 import com.gestion.ecole.backend.models.gestionEleve.AbsenceEleve;
-import com.gestion.ecole.backend.service.AbsenceEleveService;
+import com.gestion.ecole.backend.service.gestionEleve.AbsenceEleveService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,5 +1,6 @@
 package com.gestion.ecole.backend.models.gestionEleve;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -44,21 +45,25 @@ public class Eleve {
     @OneToOne(mappedBy = "eleve",cascade = CascadeType.ALL,fetch = FetchType.LAZY)
     private AncienneEcole ancienneEcole;
 
+    @JsonIgnore
     @ManyToMany(mappedBy = "eleves_transport")
     private List<GroupeTransport> groupeTransports;
 
+    @JsonIgnore
     @ManyToMany(mappedBy = "eleves_cantine")
     private List<GroupeCantine> groupeCantine;
 
     @OneToMany(mappedBy = "eleveAbsence")
     private List<AbsenceEleve> absenceEleves;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "eleveRetard")
     private List<RetardEleve> retardEleves;
 
     @ManyToMany(mappedBy = "elevesControles")
     private List<Controle> controles;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "eleve",fetch = FetchType.LAZY,cascade = CascadeType.ALL)
     private List<AnneeScolaire> anneeScolaires;
 }

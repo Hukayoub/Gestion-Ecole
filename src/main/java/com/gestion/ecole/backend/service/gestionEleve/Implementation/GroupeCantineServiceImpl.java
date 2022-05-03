@@ -1,8 +1,9 @@
-package com.gestion.ecole.backend.service.Implementation;
+package com.gestion.ecole.backend.service.gestionEleve.Implementation;
 
 import com.gestion.ecole.backend.models.gestionEleve.GroupeCantine;
 import com.gestion.ecole.backend.repository.GroupeCantineRepository;
-import com.gestion.ecole.backend.service.GroupeCantineService;
+import com.gestion.ecole.backend.service.gestionEleve.GroupeCantineService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.stream.Collectors;
 @Service
 public class GroupeCantineServiceImpl implements GroupeCantineService {
 
+    @Autowired
     private GroupeCantineRepository groupeCantineRepository;
 
     @Override

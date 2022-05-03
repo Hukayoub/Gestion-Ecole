@@ -1,9 +1,8 @@
-package com.gestion.ecole.backend.service.Implementation;
+package com.gestion.ecole.backend.service.gestionEleve.Implementation;
 
 import com.gestion.ecole.backend.models.gestionEleve.AbsenceEleve;
-import com.gestion.ecole.backend.models.gestionEleve.Eleve;
 import com.gestion.ecole.backend.repository.AbsenceEleveRepository;
-import com.gestion.ecole.backend.service.AbsenceEleveService;
+import com.gestion.ecole.backend.service.gestionEleve.AbsenceEleveService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

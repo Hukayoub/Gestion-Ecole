@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 @Data
@@ -12,7 +13,7 @@ import java.util.Date;
 @Table(name = "annee_scolaire")
 @AllArgsConstructor
 @NoArgsConstructor
-public class AnneeScolaire {
+public class AnneeScolaire implements Serializable {
 
     @EmbeddedId
     private AnneeScolaireKey id;

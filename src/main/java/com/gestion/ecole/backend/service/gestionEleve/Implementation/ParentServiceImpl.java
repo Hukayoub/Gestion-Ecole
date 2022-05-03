@@ -1,8 +1,8 @@
-package com.gestion.ecole.backend.service.Implementation;
+package com.gestion.ecole.backend.service.gestionEleve.Implementation;
 
 import com.gestion.ecole.backend.models.gestionEleve.Parent;
 import com.gestion.ecole.backend.repository.ParentRepository;
-import com.gestion.ecole.backend.service.ParentService;
+import com.gestion.ecole.backend.service.gestionEleve.ParentService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

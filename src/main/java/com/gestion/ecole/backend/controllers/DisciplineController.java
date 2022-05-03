@@ -1,7 +1,7 @@
 package com.gestion.ecole.backend.controllers;
 
 import com.gestion.ecole.backend.models.gestionEleve.Discipline;
-import com.gestion.ecole.backend.service.DisciplineService;
+import com.gestion.ecole.backend.service.gestionEleve.DisciplineService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

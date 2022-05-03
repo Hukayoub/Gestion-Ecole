@@ -1,9 +1,9 @@
-package com.gestion.ecole.backend.service.Implementation;
+package com.gestion.ecole.backend.service.gestionEleve.Implementation;
 
 import com.gestion.ecole.backend.models.gestionEleve.AnneeScolaire;
 import com.gestion.ecole.backend.models.gestionEleve.AnneeScolaireKey;
 import com.gestion.ecole.backend.repository.AnneeScolaireRepository;
-import com.gestion.ecole.backend.service.AnneeScolaireService;
+import com.gestion.ecole.backend.service.gestionEleve.AnneeScolaireService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

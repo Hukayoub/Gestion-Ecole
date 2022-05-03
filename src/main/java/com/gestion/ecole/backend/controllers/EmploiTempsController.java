@@ -2,7 +2,7 @@ package com.gestion.ecole.backend.controllers;
 
 
 import com.gestion.ecole.backend.models.gestionEleve.EmploiTemps;
-import com.gestion.ecole.backend.service.EmploiTempsService;
+import com.gestion.ecole.backend.service.gestionEleve.EmploiTempsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

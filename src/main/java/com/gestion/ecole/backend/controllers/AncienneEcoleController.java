@@ -1,7 +1,7 @@
 package com.gestion.ecole.backend.controllers;
 
 import com.gestion.ecole.backend.models.gestionEleve.AncienneEcole;
-import com.gestion.ecole.backend.service.AncienneEcoleService;
+import com.gestion.ecole.backend.service.gestionEleve.AncienneEcoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -2,7 +2,7 @@ package com.gestion.ecole.backend.controllers;
 
 import com.gestion.ecole.backend.models.gestionEleve.AnneeScolaire;
 import com.gestion.ecole.backend.models.gestionEleve.AnneeScolaireKey;
-import com.gestion.ecole.backend.service.AnneeScolaireService;
+import com.gestion.ecole.backend.service.gestionEleve.AnneeScolaireService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

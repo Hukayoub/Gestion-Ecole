@@ -1,11 +1,15 @@
 package com.gestion.ecole.backend.models.gestionEleve;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.gestion.ecole.backend.models.gestionProfesseur.AbsenceProfesseur;
+import com.gestion.ecole.backend.models.gestionProfesseur.RetardProfesseur;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Data
 @Entity
@@ -34,7 +38,14 @@ public class Professeur {
 
     private String adresse;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "emploi_temps_id")
     private EmploiTemps emploiTemps;
+
+    @OneToMany(mappedBy = "professeur")
+    private List<AbsenceProfesseur> absenceProfesseurs;
+
+    @OneToMany(mappedBy = "professeur")
+    private List<RetardProfesseur> retardProfesseurs;
 }
