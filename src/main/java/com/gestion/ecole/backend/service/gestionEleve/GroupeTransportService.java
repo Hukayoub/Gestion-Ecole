@@ -1,6 +1,6 @@
 package com.gestion.ecole.backend.service.gestionEleve;
 
-import com.gestion.ecole.backend.models.gestionEleve.GroupeTransport;
+import com.gestion.ecole.backend.models.gestionTransport.GroupeTransport;
 
 import java.util.List;
 

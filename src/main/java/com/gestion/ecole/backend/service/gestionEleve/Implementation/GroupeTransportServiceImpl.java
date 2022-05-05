@@ -1,7 +1,7 @@
 package com.gestion.ecole.backend.service.gestionEleve.Implementation;
 
-import com.gestion.ecole.backend.models.gestionEleve.GroupeTransport;
-import com.gestion.ecole.backend.repository.GroupeTransportRepository;
+import com.gestion.ecole.backend.models.gestionTransport.GroupeTransport;
+import com.gestion.ecole.backend.repository.gestionTransport.GroupeTransportRepository;
 import com.gestion.ecole.backend.service.gestionEleve.GroupeTransportService;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,6 @@
-package com.gestion.ecole.backend.repository;
+package com.gestion.ecole.backend.repository.gestionTransport;
 
-import com.gestion.ecole.backend.models.gestionEleve.GroupeCantine;
-import com.gestion.ecole.backend.models.gestionEleve.GroupeTransport;
+import com.gestion.ecole.backend.models.gestionTransport.GroupeTransport;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

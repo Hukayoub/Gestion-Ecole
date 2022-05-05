@@ -1,6 +1,7 @@
 package com.gestion.ecole.backend.models.gestionEleve;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.gestion.ecole.backend.models.gestionTransport.GroupeTransport;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
