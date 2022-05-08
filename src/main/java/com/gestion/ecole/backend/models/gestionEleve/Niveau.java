@@ -1,5 +1,6 @@
 package com.gestion.ecole.backend.models.gestionEleve;
 
+import com.gestion.ecole.backend.models.gestionPaiement.Frais;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -33,4 +34,6 @@ public class Niveau {
             inverseJoinColumns = {@JoinColumn(name = "discipline_id")})
     private List<Discipline> disciplines;
 
+    @OneToMany(mappedBy = "niveau")
+    private List<Frais> frais;
 }

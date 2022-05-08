@@ -1,7 +1,7 @@
 package com.gestion.ecole.backend.service.gestionEleve.Implementation;
 
 import com.gestion.ecole.backend.models.gestionEleve.Discipline;
-import com.gestion.ecole.backend.repository.DisciplineRepository;
+import com.gestion.ecole.backend.repository.gestionEleve.DisciplineRepository;
 import com.gestion.ecole.backend.service.gestionEleve.DisciplineService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

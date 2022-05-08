@@ -33,4 +33,5 @@ public class AnneeScolaire implements Serializable {
     @JoinColumn(name = "classe_id")
     private Classe classe;
 
+
 }

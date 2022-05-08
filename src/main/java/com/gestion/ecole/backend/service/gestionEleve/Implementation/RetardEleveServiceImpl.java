@@ -1,7 +1,7 @@
 package com.gestion.ecole.backend.service.gestionEleve.Implementation;
 
 import com.gestion.ecole.backend.models.gestionEleve.RetardEleve;
-import com.gestion.ecole.backend.repository.RetardEleveRepository;
+import com.gestion.ecole.backend.repository.gestionEleve.RetardEleveRepository;
 import com.gestion.ecole.backend.service.gestionEleve.RetardEleveService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

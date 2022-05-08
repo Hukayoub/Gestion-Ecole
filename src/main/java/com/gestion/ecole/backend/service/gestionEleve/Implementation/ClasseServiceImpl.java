@@ -1,7 +1,7 @@
 package com.gestion.ecole.backend.service.gestionEleve.Implementation;
 
 import com.gestion.ecole.backend.models.gestionEleve.Classe;
-import com.gestion.ecole.backend.repository.ClasseRepository;
+import com.gestion.ecole.backend.repository.gestionEleve.ClasseRepository;
 import com.gestion.ecole.backend.service.gestionEleve.ClasseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

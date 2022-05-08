@@ -1,7 +1,7 @@
 package com.gestion.ecole.backend.service.gestionEleve.Implementation;
 
 import com.gestion.ecole.backend.models.gestionEleve.Matiere;
-import com.gestion.ecole.backend.repository.MatiereRepository;
+import com.gestion.ecole.backend.repository.gestionEleve.MatiereRepository;
 import com.gestion.ecole.backend.service.gestionEleve.MatiereService;
 import org.springframework.stereotype.Service;
 

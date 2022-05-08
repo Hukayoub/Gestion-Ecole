@@ -1,4 +1,4 @@
-package com.gestion.ecole.backend.controllers;
+package com.gestion.ecole.backend.controllers.gestionEleve;
 
 
 import com.gestion.ecole.backend.models.gestionEleve.Eleve;

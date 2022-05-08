@@ -1,4 +1,4 @@
-package com.gestion.ecole.backend.repository;
+package com.gestion.ecole.backend.repository.gestionEleve;
 
 import com.gestion.ecole.backend.models.gestionEleve.AnneeScolaire;
 import com.gestion.ecole.backend.models.gestionEleve.AnneeScolaireKey;
